@@ -9,6 +9,7 @@
     --header-color: #F03C42;
     --blue: #222374;
     --font-white: #fff;
+    --meet-div: #CCCCCC;
 }
 
 /* Header */
@@ -43,4 +44,43 @@ header {
 
 /* Meet us section */
 
+.meet-us-container {
+    background-color: var(--blue);
+    height: 418px;
+    width: 100%;
+}
 
+.meet-us-container h1 {
+    color: var(--font-white);
+}
+
+.meet-us-container-content {
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+.meet-us-content {
+    margin-top: 20px;
+}
+
+.meet-content {
+    background-color: var(--meet-div);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.meet-content h3 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.meet-content p {
+    font-size: 14px;
+}
