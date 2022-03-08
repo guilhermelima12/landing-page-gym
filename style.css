@@ -10,6 +10,7 @@
     --blue: #222374;
     --font-white: #fff;
     --meet-div: #CCCCCC;
+    --footer: #000;
 }
 
 /* Header */
@@ -107,6 +108,7 @@ header {
     margin: 20px 0;
 }
 
+
 .modalities-content {
     display: flex;
     height: 100%;
@@ -136,3 +138,39 @@ header {
 .modalities-content p {
     font-size: 14px;
 }
+
+/* footer */
+
+footer {
+    background-color: var(--footer);
+    height: 262px;
+    color: var(--font-white);
+}
+
+.footer-container {
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 262px;
+    justify-content: center;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.footer-logo img {
+    margin-right: 10px;
+}
+
+.street {
+    text-align: center;
+}
+
+
+
+
