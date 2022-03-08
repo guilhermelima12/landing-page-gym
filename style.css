@@ -162,6 +162,12 @@ footer {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.footer-logo a {
+    text-decoration: none;
+    color: var(--font-white);
 }
 
 .footer-logo img {
