@@ -76,11 +76,63 @@ header {
 }
 
 .meet-content h3 {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 20px;
     margin-bottom: 10px;
 }
 
 .meet-content p {
+    font-size: 14px;
+}
+
+/* modalities */
+
+.modalities-section {
+    width: 100%;
+    height: 880px;
+    display: flex;
+}
+
+.modalities-container {
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.modalities-container h1 {
+    font-size: 32px;
+    margin: 20px 0;
+}
+
+.modalities-content {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.modalities-container h1 {
+    color: var(--header-color);
+}
+
+.modalities-content div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: var(--blue);
+    padding: 20px;
+    border-radius: 8px;
+    color: var(--font-white);
+}
+
+.modalities-content h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.modalities-content p {
     font-size: 14px;
 }
